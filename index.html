@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <title>Valyutchik.Uz</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input
+          type="number"
+          name="soqqa"
+          id="soqqa"
+          placeholder="Enter 
+        amount"
+          required
+        />
+
+        <select name="currency" id="currency">
+          <option value="dis" selected disabled>Select Currency</option>
+          <option value="usd" class="one">USD</option>
+          <option value="eur" class="two">EUR</option>
+          <option value="uzs" class="three">UZS</option>
+          <option value="rub" class="four">RUB</option>
+        </select>
+        <select name="tocurrency" id="tocurrency"></select>
+        <button type="submit" id="convert">Convert</button>
+        <h3 id="result"></h3>
+      </form>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
