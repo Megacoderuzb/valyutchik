@@ -113,5 +113,8 @@ btn.addEventListener("click", (e) => {
     console.log(input.value);
     result.innerText = `${a} So'm`;
   }
+  if (!input) {
+    alert("VAlyutani tanlang");
+  }
   return;
 });
